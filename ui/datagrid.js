@@ -256,8 +256,8 @@ return $.widget( "ui.datagrid", {
 		//thats why a set de minimum value on the header to the body too.
 		
 		//-- portuguese --
-		//alinhando o header de acordo com o body é possivel que o label do header seja maior que qualquer um dos valores no body
-		//por isso eu refaço o alinhamento para que o valor minimo do header seja também no body.
+		//alinhando o header de acordo com o body eh possivel que o label do header seja maior que qualquer um dos valores no body
+		//por isso eu refaco o alinhamento para que o valor minimo do header seja tambem no body.
 		for(var i=0; i<this.instance._tbody.rows[1].cells.length; i++) {			
 			this.instance._tbody.rows[1].cells[i].style.width = this.instance._headerTable.rows[0].cells[i].offsetWidth + "px";
 			this.instance._lastColumnsWidth.push(this.instance._tbody.rows[1].cells[i].offsetWidth);
